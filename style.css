@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin-bottom: 0;
+}
+       /* header */
+
+header{
+display:flex ;
+justify-content: space-between;
+align-items: center;
+padding: 10px 18%;
+border-bottom: 1px solid rgb(107, 103, 103);
+background-color: white;
+position: sticky;
+top: 0;
+height: 70px;
+
+}
+
+
+header .logo img{
+    width: 150px;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+
+ .profile{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+}
+header nav ul{
+    display: flex;
+   
+}
+header nav ul li{
+   margin-left: 20px;
+}
+header nav ul li a i{
+ font-size: 22px;
+ color: rgb(13, 13, 13);
+}
+header .search-box{
+    width: 250px;
+    height: 28px;
+    background-color: rgba(220, 223, 226, 0.923);
+    align-items: center;
+    padding: 3px;
+    border-radius: 3px;
+}
+header .search-box input{
+    border: none;
+    outline: none;
+    background-color: rgba(220, 223, 226, 0.923);
+    padding-left: 5px;
+}
+header .search-box i{
+    padding-left: 5px;
+    
+}
+
+               /* body section */
+
+section{
+    padding: 30px 18%;
+    background-color: #fafafa;
+    display: flex;
+}             
+.left-side{
+    width: 65%;
+
+}  
+.left-side .story{
+    display: flex;
+    padding: 6px;
+    background-color: rgb(238, 241, 243);
+    border: 1px solid rgb(215, 209, 209);
+    height: 70px;
+}
+.left-side .story .stories{
+    width: 9%;
+}
+.left-side .story .stories a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:2px solid rgb(202, 27, 135);
+    object-fit: cover;
+}
+.left-side .story .stories  p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+.left-side .posts .post-nav{
+    border: 1px solid rgb(170, 168, 168);
+    padding: 5px;
+   
+}
+.left-side .posts .post-nav img{
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+    
+
+
+.left-side .posts .post-nav span{
+    margin-left: auto;
+    font-weight: 900;
+}
+.left-side .posts .post-img img{
+  width: 100%;
+}
+.img-footer i{
+ margin-left: 5px;
+}
+
+
+
+
+/* right-section */
+
+
+.right-side{
+   width: 35%;
+   margin: 0;
+   padding: 0;
+  
+
+}
+.right-side p{
+    margin-top: 1px;
+   margin-top: 15px;
+
+}
+.profile-title{
+    display: flex;
+}
+.profile-left{
+    display: flex;
+    margin-left: 10px;
+    
+}
+.profile-left .image img{
+    border-radius: 50%;
+    margin-right: 5px;
+    
+}
+.profile-right span{
+    margin-left: 200px;
+    color: blue;
+}
